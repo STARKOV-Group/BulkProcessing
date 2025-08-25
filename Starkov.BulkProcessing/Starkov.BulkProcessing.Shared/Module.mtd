@@ -1,0 +1,62 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "ce8684c0-e074-493f-af65-e1bbf68654f4",
+  "Name": "BulkProcessing",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "Starkov.BulkProcessing.Client",
+  "ClientBaseAssemblyName": "Starkov.BulkProcessing.ClientBase",
+  "ClientBaseNamespace": "Starkov.BulkProcessing.ClientBase",
+  "ClientNamespace": "Starkov.BulkProcessing.Client",
+  "Code": "BulkPro",
+  "CompanyCode": "Starkov",
+  "Cover": {
+    "NameGuid": "87ab744b-ec9e-4029-b858-86fd34087b62",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "daa5e08b-5309-4295-b958-6def89dc5016",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "a8be82cd-2ddd-4343-8cc3-7d0ae6de26d7",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "DesktopViews": [],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "Starkov.BulkProcessing",
+  "IsolatedAssemblyName": "Starkov.BulkProcessing.Isolated",
+  "IsolatedNamespace": "Starkov.BulkProcessing.Isolated",
+  "IsVisible": false,
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "Starkov.BulkProcessing",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "Starkov.BulkProcessing.Server",
+  "ServerNamespace": "Starkov.BulkProcessing.Server",
+  "SharedAssemblyName": "Starkov.BulkProcessing.Shared",
+  "SharedNamespace": "Starkov.BulkProcessing.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

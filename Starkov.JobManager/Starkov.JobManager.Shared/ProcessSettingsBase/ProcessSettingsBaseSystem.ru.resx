@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Настройка процесса</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Настройку процесса</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Настройки процесса</value>
+  </data>
+  <data name="Property_Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Property_Priority" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="Property_FlowCount" xml:space="preserve">
+    <value>Параллельных потоков</value>
+  </data>
+  <data name="Property_BatchSize" xml:space="preserve">
+    <value>Размер пачки</value>
+  </data>
+  <data name="Property_RetryCount" xml:space="preserve">
+    <value>Лимит повторных попыток</value>
+  </data>
+  <data name="Action_ShowErrorsList" xml:space="preserve">
+    <value>Показать список ошибок</value>
+  </data>
+  <data name="Action_ShowErrorsListHint" xml:space="preserve">
+    <value>Показать список ошибок</value>
+  </data>
+  <data name="Action_ShowErrorsListDescription" xml:space="preserve">
+    <value>Показать список ошибок</value>
+  </data>
+  <data name="Action_ShowQueue" xml:space="preserve">
+    <value>Показать очередь</value>
+  </data>
+  <data name="Action_ShowQueueHint" xml:space="preserve">
+    <value>Показать очередь</value>
+  </data>
+  <data name="Action_ShowQueueDescription" xml:space="preserve">
+    <value>Показать очередь</value>
+  </data>
+  <data name="Property_Rules" xml:space="preserve">
+    <value>Правила</value>
+  </data>
+  <data name="Ribbon_Group_29c29915d4fd4e73840a782c6b71ece3" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+  <data name="ControlGroup_397ed828bf4b46b98d8ec6578c4a8178" xml:space="preserve">
+    <value>Дополнительные параметры</value>
+  </data>
+  <data name="Action_ShowCount" xml:space="preserve">
+    <value>Посчитать количество</value>
+  </data>
+  <data name="Action_ShowCountHint" xml:space="preserve">
+    <value>Посчитать количество</value>
+  </data>
+  <data name="Action_ShowCountDescription" xml:space="preserve">
+    <value>Посчитать количество</value>
+  </data>
+  <data name="Property_FlowCountAtWorkingHours" xml:space="preserve">
+    <value>Параллельных потоков
+в рабочее время</value>
+  </data>
+  <data name="Property_IsLockDisable" xml:space="preserve">
+    <value>Отключить проверку на блокировку сущностей при обработке</value>
+  </data>
+  <data name="Action_StartDescription" xml:space="preserve">
+    <value>Запустить</value>
+  </data>
+  <data name="Action_PauseDescription" xml:space="preserve">
+    <value>Приостановить</value>
+  </data>
+  <data name="Action_Pause" xml:space="preserve">
+    <value>Приостановить</value>
+  </data>
+  <data name="Action_PauseHint" xml:space="preserve">
+    <value>Приостановить</value>
+  </data>
+  <data name="Action_Start" xml:space="preserve">
+    <value>Запустить</value>
+  </data>
+  <data name="Action_StartHint" xml:space="preserve">
+    <value>Запустить</value>
+  </data>
+  <data name="Property_ProcessId" xml:space="preserve">
+    <value>ИД процесса</value>
+  </data>
+  <data name="Enum_ProcessStatus_Suspended" xml:space="preserve">
+    <value>Приостановлен</value>
+  </data>
+  <data name="Enum_ProcessStatus_InProcess" xml:space="preserve">
+    <value>В работе</value>
+  </data>
+  <data name="Property_ProcessStatus" xml:space="preserve">
+    <value>Состояние процесса</value>
+  </data>
+  <data name="Enum_ProcessStatus_Done" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="Enum_ProcessStatus_Draft" xml:space="preserve">
+    <value>Черновик</value>
+  </data>
+  <data name="Property_IsExcludeProcessedEntities" xml:space="preserve">
+    <value>Формировать новую очередь из записей с ИД большим максимального из предыдущей обработки</value>
+  </data>
+  <data name="Ribbon_Queue_d2c572d42a3b46a9b8427365faff71de" xml:space="preserve">
+    <value>Очередь</value>
+  </data>
+  <data name="Property_RetryInterval" xml:space="preserve">
+    <value>Минимальный интервал 
+повторных попыток (мин)</value>
+  </data>
+  <data name="Action_StopDescription" xml:space="preserve">
+    <value>Сброс</value>
+  </data>
+  <data name="Action_Stop" xml:space="preserve">
+    <value>Прекратить</value>
+  </data>
+  <data name="Action_StopHint" xml:space="preserve">
+    <value>Прекратить</value>
+  </data>
+</root>

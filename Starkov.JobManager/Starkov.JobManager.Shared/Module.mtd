@@ -1,0 +1,178 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "5571b823-2b9f-44c7-823b-2bba034863c8",
+  "Name": "JobManager",
+  "AsyncHandlers": [
+    {
+      "NameGuid": "d0b0390b-2e58-413b-91ec-5f1af67f4406",
+      "Name": "EntitiesQueueBatchProcessing",
+      "DelayPeriod": 1,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "ce0a2143-ae89-4488-9860-20a2e0879df6",
+          "Name": "EntitiesQueueBatchId",
+          "ParameterType": "LongInteger"
+        }
+      ]
+    }
+  ],
+  "ClientAssemblyName": "Starkov.JobManager.Client",
+  "ClientBaseAssemblyName": "Starkov.JobManager.ClientBase",
+  "ClientBaseNamespace": "Starkov.JobManager.ClientBase",
+  "ClientNamespace": "Starkov.JobManager.Client",
+  "Code": "JobMan1",
+  "CompanyCode": "Starkov",
+  "Cover": {
+    "NameGuid": "4e812a69-5be0-4e1f-b56c-1b9b88103b57",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "7f2af7f0-e05b-46ee-924b-f1b4b3dfed1d",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "e5cd3335-abf7-4377-a092-95742c169c60",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "Dependencies": [
+    {
+      "Id": "ce8684c0-e074-493f-af65-e1bbf68654f4",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "4dcf86ac-6c3a-42a3-b5aa-b2054e5c88bf"
+    },
+    {
+      "ItemId": "7d3d363b-c99c-4639-b6b0-a5534145ea63",
+      "PreviousItemId": "4dcf86ac-6c3a-42a3-b5aa-b2054e5c88bf"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "Starkov.JobManager",
+  "IsolatedAssemblyName": "Starkov.JobManager.Isolated",
+  "IsolatedNamespace": "Starkov.JobManager.Isolated",
+  "IsVisible": false,
+  "Jobs": [
+    {
+      "NameGuid": "8d0017a9-b4b2-4f5c-b237-3d9d4b936e9d",
+      "Name": "CreateEntitiesQueueBatches",
+      "Daily": "Repeat",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "TimePeriod": 15
+    },
+    {
+      "NameGuid": "ebae663d-927a-42ad-9d0e-32cf28858b8b",
+      "Name": "CreateAsyncForEntitiesBatch",
+      "Daily": "Repeat",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "TimePeriod": 60
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "CreateProcessEntitiesDefaultResult",
+      "ReturnType": "global::Starkov.JobManager.Structures.Module.IProcessEntitiesResult",
+      "ReturnTypeFullName": "Starkov.JobManager.Structures.Module.IProcessEntitiesResult"
+    },
+    {
+      "Name": "IsWorkingTime",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    }
+  ],
+  "PublicStructures": [
+    {
+      "Name": "ProcessEntitiesResult",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "ProcessStartTime",
+          "IsNullable": true,
+          "TypeFullName": "global::System.Nullable<global::System.DateTime>"
+        },
+        {
+          "Name": "IsSuccess",
+          "IsNullable": true,
+          "TypeFullName": "global::System.Nullable<global::System.Boolean>"
+        },
+        {
+          "Name": "UnsuccessItemsInfo",
+          "IsList": true,
+          "IsNullable": true,
+          "TypeFullName": "global::System.Collections.Generic.List<global::Starkov.JobManager.Structures.Module.IUnsuccessItem>"
+        },
+        {
+          "Name": "ExtendedParams",
+          "IsNullable": true,
+          "TypeFullName": "global::System.Collections.Generic.Dictionary<global::System.String, global::System.String>"
+        }
+      ],
+      "StructureNamespace": "Starkov.JobManager.Structures.Module"
+    },
+    {
+      "Name": "UnsuccessItem",
+      "IsPublic": true,
+      "Properties": [
+        {
+          "Name": "EntityId",
+          "TypeFullName": "global::System.Int64"
+        },
+        {
+          "Name": "IsLocked",
+          "TypeFullName": "global::System.Boolean"
+        },
+        {
+          "Name": "ErrorMessage",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        },
+        {
+          "Name": "StackTrace",
+          "IsNullable": true,
+          "TypeFullName": "global::System.String"
+        }
+      ],
+      "StructureNamespace": "Starkov.JobManager.Structures.Module"
+    }
+  ],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "Starkov.JobManager",
+  "ResourcesKeys": [
+    "ProcessSettingsShowFunctionName",
+    "ProcessSettingsShowFunctionDiscription"
+  ],
+  "ServerAssemblyName": "Starkov.JobManager.Server",
+  "ServerNamespace": "Starkov.JobManager.Server",
+  "SharedAssemblyName": "Starkov.JobManager.Shared",
+  "SharedNamespace": "Starkov.JobManager.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}
