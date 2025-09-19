@@ -11,7 +11,7 @@ namespace Starkov.JobManager.Client
   {
     public virtual void Stop(Sungero.Domain.Client.ExecuteActionArgs e)
     {
-      if (!Dialogs.CreateConfirmDialog("Остановить обработку и очистить очередь?").Show())
+      if (!Dialogs.CreateConfirmDialog(Starkov.JobManager.ProcessSettingsBases.Resources.StopActionConfirmMessage).Show())
         return;
       
       _obj.ProcessId = null;
@@ -60,7 +60,7 @@ namespace Starkov.JobManager.Client
     public virtual void ShowCount(Sungero.Domain.Client.ExecuteActionArgs e)
     {
       var count = Functions.ProcessSettingsBase.Remote.GetEntitiesCount(_obj);
-      e.AddInformation(string.Format("Согласно критериям текущая выборка к обработке составляет {0} записей.", count));
+      e.AddInformation(JobManager.ProcessSettingsBases.Resources.CurrentEntitiesForProcessingCountFormat(count));
     }
 
     public virtual bool CanShowCount(Sungero.Domain.Client.CanExecuteActionArgs e)

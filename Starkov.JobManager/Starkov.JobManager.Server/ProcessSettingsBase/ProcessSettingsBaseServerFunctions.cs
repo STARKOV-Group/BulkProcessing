@@ -126,7 +126,7 @@ namespace Starkov.JobManager.Server
           {
             if (_obj.IsLockDisable != true && !Locks.TryLock(entity))
             {
-              result.UnsuccessItemsInfo.Add(Structures.Module.UnsuccessItem.Create(entity.Id, true, string.Format("Заблокировано {0}", Locks.GetLockInfo(entity).OwnerName), null));
+              result.UnsuccessItemsInfo.Add(Structures.Module.UnsuccessItem.Create(entity.Id, true, JobManager.ProcessSettingsBases.Resources.LockedByMessageFormat(Locks.GetLockInfo(entity).OwnerName), null));
               continue;
             }
             

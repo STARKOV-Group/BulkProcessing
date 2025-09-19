@@ -43,7 +43,7 @@ namespace Starkov.JobManager.Shared
     /// <param name="operation">Enumeration операции (Должен быть ресурс формата Enum_Operation_)</param>
     public virtual void WriteActionToHistory(Sungero.Core.Enumeration operation)
     {
-      var comment = string.Format("Пользователь {0}", Users.Current.Name);
+      var comment = JobManager.ProcessSettingsBases.Resources.HistoryComment_UserFormat(Users.Current.Name);
       _obj.History.Write(operation, null, comment);
     }
     

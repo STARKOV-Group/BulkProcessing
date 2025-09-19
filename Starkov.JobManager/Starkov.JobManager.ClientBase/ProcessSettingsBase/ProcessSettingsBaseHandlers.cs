@@ -20,7 +20,7 @@ namespace Starkov.JobManager
       var errors = Functions.ProcessSettingsBase.Remote.GetQueueErrors(_obj);
       if (errors.Any())
       {
-        e.AddWarning("Есть записи с ошибками.", _obj.Info.Actions.ShowErrorsList);
+        e.AddWarning(JobManager.ProcessSettingsBases.Resources.QueueErrorsWarningMessage, _obj.Info.Actions.ShowErrorsList);
       }
     }
 
