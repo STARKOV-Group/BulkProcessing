@@ -88,4 +88,7 @@
   <data name="StopActionConfirmMessage" xml:space="preserve">
     <value>Stop processing and clear the queue?</value>
   </data>
+  <data name="LockedByMessage" xml:space="preserve">
+    <value>Locked by {0}</value>
+  </data>
 </root>

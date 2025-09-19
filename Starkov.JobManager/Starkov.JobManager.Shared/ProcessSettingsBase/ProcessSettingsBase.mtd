@@ -481,7 +481,8 @@
     "BatchLimitErrorMessage",
     "QueueErrorsWarningMessage",
     "CurrentEntitiesForProcessingCount",
-    "StopActionConfirmMessage"
+    "StopActionConfirmMessage",
+    "LockedByMessage"
   ],
   "RibbonCardMetadata": {
     "NameGuid": "8e1a775b-9321-4929-a8b3-3e910e903e91",
