@@ -63,17 +63,7 @@ namespace Starkov.JobManager.Server
     [Public]
     public virtual bool IsWorkingTime()
     {
-      // Calendar.IsWorkingTime(Calendar.Now);
-      
-      var now = Calendar.Now;
-      
-      if (now.DayOfWeek == DayOfWeek.Saturday || now.DayOfWeek == DayOfWeek.Sunday)
-        return false;
-      
-      if (now.Hour < 8 || now.Hour > 18)
-        return false;
-      
-      return true;
+      return Calendar.IsWorkingTime(Calendar.Now);
     }
 
   }
