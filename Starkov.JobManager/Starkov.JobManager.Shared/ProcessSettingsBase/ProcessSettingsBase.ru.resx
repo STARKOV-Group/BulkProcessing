@@ -73,4 +73,19 @@
   <data name="Enum_Operation_ProcessStop" xml:space="preserve">
     <value>Прекращено</value>
   </data>
+  <data name="HistoryComment_User" xml:space="preserve">
+    <value>Пользователь {0}</value>
+  </data>
+  <data name="BatchLimitErrorMessage" xml:space="preserve">
+    <value>Размер пачки не должен превышать {0} элементов.</value>
+  </data>
+  <data name="QueueErrorsWarningMessage" xml:space="preserve">
+    <value>Есть записи с ошибками.</value>
+  </data>
+  <data name="CurrentEntitiesForProcessingCount" xml:space="preserve">
+    <value>Согласно критериям текущая выборка к обработке составляет {0} записей.</value>
+  </data>
+  <data name="StopActionConfirmMessage" xml:space="preserve">
+    <value>Остановить обработку и очистить очередь?</value>
+  </data>
 </root>

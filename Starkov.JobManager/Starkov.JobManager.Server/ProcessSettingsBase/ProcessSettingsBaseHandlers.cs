@@ -23,7 +23,7 @@ namespace Starkov.JobManager
     {
       if (_obj.BatchSize > Constants.Module.GenericSettings.DefaultMaxBatchSize)
       {
-        e.AddError(_obj.Info.Properties.BatchSize, string.Format("Размер пачки не должен превышать {0} элементов.", Constants.Module.GenericSettings.DefaultMaxBatchSize));
+        e.AddError(_obj.Info.Properties.BatchSize, JobManager.ProcessSettingsBases.Resources.BatchLimitErrorMessageFormat(Constants.Module.GenericSettings.DefaultMaxBatchSize));
         return;
       }
       

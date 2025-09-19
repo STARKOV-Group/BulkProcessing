@@ -73,4 +73,19 @@
   <data name="Enum_Operation_ProcessStop" xml:space="preserve">
     <value>Stop</value>
   </data>
+  <data name="HistoryComment_User" xml:space="preserve">
+    <value>User {0}</value>
+  </data>
+  <data name="BatchLimitErrorMessage" xml:space="preserve">
+    <value>The size of the batch must not exceed {0} elements.</value>
+  </data>
+  <data name="QueueErrorsWarningMessage" xml:space="preserve">
+    <value>There are entries with errors.</value>
+  </data>
+  <data name="CurrentEntitiesForProcessingCount" xml:space="preserve">
+    <value>According to the criteria, the current selection for processing is {0} records.</value>
+  </data>
+  <data name="StopActionConfirmMessage" xml:space="preserve">
+    <value>Stop processing and clear the queue?</value>
+  </data>
 </root>
