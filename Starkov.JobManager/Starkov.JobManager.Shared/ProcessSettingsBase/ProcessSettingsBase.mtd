@@ -253,6 +253,7 @@
       ]
     }
   ],
+  "FormViewUuid": "1c424ab3-592b-497f-ab02-e9ed023de190",
   "HandledEvents": [
     "CreatedServer",
     "BeforeSaveServer",
@@ -569,7 +570,7 @@
   "Versions": [
     {
       "Type": "EntityMetadata",
-      "Number": 12
+      "Number": 13
     }
   ]
 }

@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace Starkov.JobManager.Client
 {
-  public class ModuleFunctions
+  public partial class ModuleFunctions
   {
 
     /// <summary>

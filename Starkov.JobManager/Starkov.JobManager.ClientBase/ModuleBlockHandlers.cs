@@ -4,10 +4,6 @@ using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
 
-namespace Starkov.BulkProcessing.Client
+namespace Starkov.JobManager.Client.JobManagerBlocks
 {
-  public partial class ModuleFunctions
-  {
-
-  }
 }

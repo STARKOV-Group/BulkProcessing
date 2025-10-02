@@ -26,7 +26,6 @@
     "Tabs": []
   },
   "DesktopViews": [],
-  "IconResourcesKeys": [],
   "Importance": "Medium",
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "InterfaceNamespace": "Starkov.BulkProcessing",
@@ -37,7 +36,6 @@
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "ResourceInterfaceNamespace": "Starkov.BulkProcessing",
-  "ResourcesKeys": [],
   "ServerAssemblyName": "Starkov.BulkProcessing.Server",
   "ServerNamespace": "Starkov.BulkProcessing.Server",
   "SharedAssemblyName": "Starkov.BulkProcessing.Shared",
@@ -48,11 +46,11 @@
   "Versions": [
     {
       "Type": "SolutionMetadata",
-      "Number": 8
+      "Number": 11
     },
     {
       "Type": "ModuleMetadata",
-      "Number": 8
+      "Number": 11
     },
     {
       "Type": "DomainApi",

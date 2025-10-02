@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace Starkov.BulkProcessing.Server
 {
-  public class ModuleAsyncHandlers
+  public partial class ModuleAsyncHandlers
   {
 
   }
