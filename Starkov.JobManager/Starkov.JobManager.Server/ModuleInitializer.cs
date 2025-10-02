@@ -20,7 +20,8 @@ namespace Starkov.JobManager.Server
     /// </summary>
     public virtual void CreateDocflowParams()
     {
-      Functions.Module.UpdateTotalFlowCount(Constants.Module.GenericSettings.DefaultFlowCountParamValue);
+      if (Sungero.Docflow.PublicFunctions.Module.GetDocflowParamsValue(Constants.Module.GenericSettings.TotalFlowCountParamName) == null)
+        Functions.Module.UpdateTotalFlowCount(Constants.Module.GenericSettings.DefaultFlowCountParamValue);
     }
   }
 }
