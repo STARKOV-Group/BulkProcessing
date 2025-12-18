@@ -266,6 +266,7 @@
   "IsAbstract": true,
   "IsStatusEnabled": true,
   "IsVisible": false,
+  "ListViewUuid": "8bd710a0-af82-4102-a75d-4a4e08fd2ac5",
   "OperationsClass": "",
   "Overridden": [
     "IsStatusEnabled",

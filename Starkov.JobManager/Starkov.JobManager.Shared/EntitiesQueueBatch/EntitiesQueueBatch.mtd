@@ -192,6 +192,7 @@
   "IntegrationServiceName": "JobManagerProcessingQueue",
   "IsAutoCreated": true,
   "IsVisible": false,
+  "ListViewUuid": "1021ddf2-7f43-47b2-a111-fa950dd96ac5",
   "OperationsClass": "",
   "Overridden": [
     "IsVisible",

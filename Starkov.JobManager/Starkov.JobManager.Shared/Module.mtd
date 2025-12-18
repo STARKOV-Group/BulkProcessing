@@ -162,7 +162,7 @@
   "SharedAssemblyName": "Starkov.JobManager.Shared",
   "SharedNamespace": "Starkov.JobManager.Shared",
   "SpecialFolders": [],
-  "Version": "0.0.1.0",
+  "Version": "0.25.3.0",
   "Widgets": [],
   "Versions": [
     {
