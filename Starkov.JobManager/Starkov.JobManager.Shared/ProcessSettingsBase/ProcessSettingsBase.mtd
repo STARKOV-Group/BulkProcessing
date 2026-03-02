@@ -438,6 +438,9 @@
       "NameGuid": "a1a38be7-875c-41de-ba7d-b3a87a135557",
       "Name": "IsSortIdDescending",
       "Code": "IsSortIdDescen",
+      "HandledEvents": [
+        "ChangedShared"
+      ],
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.BooleanEditorToBooleanBinder",
       "PreviousPropertyGuid": "40ed3fe1-d443-4500-8fa5-f688c24dad6f"
     }
