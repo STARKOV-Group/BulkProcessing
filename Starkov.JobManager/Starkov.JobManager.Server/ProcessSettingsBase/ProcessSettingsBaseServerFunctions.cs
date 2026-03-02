@@ -60,6 +60,14 @@ namespace Starkov.JobManager.Server
     }
     
     /// <summary>
+    /// Обработать событие когда в очереди не остается элементов.
+    /// </summary>
+    public virtual void EndOfRangeProcessing()
+    {
+      
+    }
+    
+    /// <summary>
     /// Получить количество потоков с учетом заданного лимита.
     /// </summary>
     [Public]

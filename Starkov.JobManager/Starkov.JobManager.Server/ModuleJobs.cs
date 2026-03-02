@@ -70,7 +70,10 @@ namespace Starkov.JobManager.Server
               .ToList();
             
             if (!range.Any())
+            {
+              Functions.ProcessSettingsBase.EndOfRangeProcessing(setting);
               break;
+            }
             
             Functions.ProcessSettingsBase.CreateEntitiesQueueBatch(setting, range);
             

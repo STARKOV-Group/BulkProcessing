@@ -548,6 +548,7 @@
         "ActionGuid": "70908984-52a9-4a1c-adbd-216f29d8d37e",
         "ButtonSize": "Large",
         "Index": 1,
+        "IsVisible": false,
         "ParentGuid": "d2c572d4-2a3b-46a9-b842-7365faff71de"
       },
       {
