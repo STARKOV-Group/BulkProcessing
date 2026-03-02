@@ -44,6 +44,7 @@ namespace Starkov.JobManager
         _obj.RetryInterval = 10;
         _obj.IsExcludeProcessedEntities = true;
         _obj.IsLockDisable = false;
+        _obj.IsSortIdDescending = false;
       }
       
       _obj.ProcessStatus = ProcessStatus.Draft;
