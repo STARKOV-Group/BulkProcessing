@@ -16,7 +16,6 @@ namespace Starkov.JobManager.Shared
     public virtual void SetEnabledProperties()
     {
       var properties = _obj.State.Properties;
-      properties.IsExcludeProcessedEntities.IsEnabled = _obj.IsSortIdDescending != true;
       
       var isInProcess = _obj.ProcessStatus == ProcessStatus.InProcess || _obj.ProcessStatus == ProcessStatus.Suspended;
       
@@ -37,6 +36,8 @@ namespace Starkov.JobManager.Shared
       {
         property.IsEnabled = !isInProcess;
       }
+      
+      properties.IsExcludeProcessedEntities.IsEnabled = _obj.IsSortIdDescending != true;
     }
     
     /// <summary>
