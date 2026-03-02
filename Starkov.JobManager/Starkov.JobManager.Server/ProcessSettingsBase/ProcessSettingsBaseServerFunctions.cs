@@ -220,7 +220,12 @@ namespace Starkov.JobManager.Server
         query = query.Where(id => !exceptedQueues.Any(_ => _.Errors.Any(e => e.EntityId == id)));
       }
       
-      return query.OrderBy(id => id);
+      if (_obj.IsSortIdDescending == true)
+        query = query.OrderByDescending(id => id);
+      else
+        query = query.OrderBy(id => id);
+      
+      return query;
     }
     
     #region Альтернативные методы для перекрытия в наследниках

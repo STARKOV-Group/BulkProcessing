@@ -183,4 +183,7 @@
   <data name="Action_StopHint" xml:space="preserve">
     <value>Прекратить</value>
   </data>
+  <data name="Property_IsSortIdDescending" xml:space="preserve">
+    <value>В первую очередь обрабатывать новые записи (сортировка по ИД)</value>
+  </data>
 </root>
