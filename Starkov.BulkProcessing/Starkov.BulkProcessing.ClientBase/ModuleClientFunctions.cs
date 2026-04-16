@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace Starkov.BulkProcessing.Client
 {
-  public class ModuleFunctions
+  public partial class ModuleFunctions
   {
 
   }

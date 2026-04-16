@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace Starkov.JobManager.Server
 {
-  public class ModuleAsyncHandlers
+  public partial class ModuleAsyncHandlers
   {
 
     public virtual void EntitiesQueueBatchProcessing(Starkov.JobManager.Server.AsyncHandlerInvokeArgs.EntitiesQueueBatchProcessingInvokeArgs args)
