@@ -1,0 +1,23 @@
+{
+  "Additional_Caption_397ed828bf4b46b98d8ec6578c4a8178": {
+    "en-US": "Additional parameters",
+    "ru-RU": "Дополнительные параметры"
+  },
+  "Description": {},
+  "Group_Caption_29c29915d4fd4e73840a782c6b71ece3": {
+    "en-US": "Main",
+    "ru-RU": "Основное"
+  },
+  "MainPage_Title_6dc89a9c337c408db8d1dae759e197f6": {
+    "en-US": "Properties",
+    "ru-RU": "Свойства"
+  },
+  "Name": {
+    "en-US": "Process Settings",
+    "ru-RU": "Настройка процесса"
+  },
+  "Queue_Caption_d2c572d42a3b46a9b8427365faff71de": {
+    "en-US": "Queue",
+    "ru-RU": "Очередь"
+  }
+}

@@ -41,7 +41,7 @@
   "SharedAssemblyName": "Starkov.BulkProcessing.Shared",
   "SharedNamespace": "Starkov.BulkProcessing.Shared",
   "SpecialFolders": [],
-  "Version": "0.25.3.0",
+  "Version": "1.26.1.0",
   "Widgets": [],
   "Versions": [
     {

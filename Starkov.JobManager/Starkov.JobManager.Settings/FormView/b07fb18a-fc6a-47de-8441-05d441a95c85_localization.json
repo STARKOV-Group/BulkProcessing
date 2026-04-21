@@ -1,0 +1,19 @@
+{
+  "Description": {},
+  "Errors_Title_4a5b9f3c8b004f88a8b8cd33f6937f51": {
+    "en-US": "Errors",
+    "ru-RU": "Ошибки"
+  },
+  "Main_Caption_343d3e1c1df940b5ab3a8f4367d85014": {
+    "en-US": "Main",
+    "ru-RU": "Основное"
+  },
+  "MainPage_Title_5892fad7cc564087b83c8599d314b67b": {
+    "en-US": "Properties",
+    "ru-RU": "Свойства"
+  },
+  "Name": {
+    "en-US": "Entities batch",
+    "ru-RU": "Очередь обработки"
+  }
+}
