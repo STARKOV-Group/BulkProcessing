@@ -180,6 +180,7 @@
       "ParentFormGuid": "5892fad7-cc56-4087-b83c-8599d314b67b"
     }
   ],
+  "FormViewUuid": "b07fb18a-fc6a-47de-8441-05d441a95c85",
   "HandledEvents": [
     "CreatedServer",
     "BeforeSaveServer",
@@ -191,6 +192,7 @@
   "IntegrationServiceName": "JobManagerProcessingQueue",
   "IsAutoCreated": true,
   "IsVisible": false,
+  "ListViewUuid": "1021ddf2-7f43-47b2-a111-fa950dd96ac5",
   "OperationsClass": "",
   "Overridden": [
     "IsVisible",
@@ -456,7 +458,7 @@
   "Versions": [
     {
       "Type": "EntityMetadata",
-      "Number": 12
+      "Number": 13
     }
   ]
 }
