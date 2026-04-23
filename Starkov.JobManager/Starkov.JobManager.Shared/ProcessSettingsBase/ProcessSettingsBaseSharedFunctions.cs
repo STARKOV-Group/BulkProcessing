@@ -16,6 +16,7 @@ namespace Starkov.JobManager.Shared
     public virtual void SetEnabledProperties()
     {
       var properties = _obj.State.Properties;
+      
       var isInProcess = _obj.ProcessStatus == ProcessStatus.InProcess || _obj.ProcessStatus == ProcessStatus.Suspended;
       
       var alwaysEnabled = new List<Sungero.Domain.Shared.IPropertyStateBase>()
@@ -35,6 +36,8 @@ namespace Starkov.JobManager.Shared
       {
         property.IsEnabled = !isInProcess;
       }
+      
+      properties.IsExcludeProcessedEntities.IsEnabled = _obj.IsSortIdDescending != true;
     }
     
     /// <summary>

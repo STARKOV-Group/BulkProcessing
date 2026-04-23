@@ -221,4 +221,7 @@ Working hours</value>
   <data name="Action_StopConfirmationDescription" xml:space="preserve">
     <value />
   </data>
+  <data name="Property_IsSortIdDescending" xml:space="preserve">
+    <value>First of all, to process new records (sort by ID)</value>
+  </data>
 </root>

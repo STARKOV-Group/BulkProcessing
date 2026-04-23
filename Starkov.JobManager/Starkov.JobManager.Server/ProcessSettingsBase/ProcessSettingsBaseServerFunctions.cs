@@ -60,6 +60,14 @@ namespace Starkov.JobManager.Server
     }
     
     /// <summary>
+    /// Обработать событие когда в очереди не остается элементов.
+    /// </summary>
+    public virtual void EndOfRangeProcessing()
+    {
+      
+    }
+    
+    /// <summary>
     /// Получить количество потоков с учетом заданного лимита.
     /// </summary>
     [Public]
@@ -220,7 +228,12 @@ namespace Starkov.JobManager.Server
         query = query.Where(id => !exceptedQueues.Any(_ => _.Errors.Any(e => e.EntityId == id)));
       }
       
-      return query.OrderBy(id => id);
+      if (_obj.IsSortIdDescending == true)
+        query = query.OrderByDescending(id => id);
+      else
+        query = query.OrderBy(id => id);
+      
+      return query;
     }
     
     #region Альтернативные методы для перекрытия в наследниках
