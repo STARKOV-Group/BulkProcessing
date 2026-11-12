@@ -195,12 +195,12 @@
   "ListViewUuid": "1021ddf2-7f43-47b2-a111-fa950dd96ac5",
   "OperationsClass": "",
   "Overridden": [
-    "IsVisible",
     "HideFromCreationArea",
     "HideFromNavigationEditorCreationArea",
     "IsAutoCreated",
-    "NeedWriteHistory",
-    "IsStatusEnabled"
+    "IsStatusEnabled",
+    "IsVisible",
+    "NeedWriteHistory"
   ],
   "Properties": [
     {
@@ -371,7 +371,7 @@
       ],
       "Placement": "Shared",
       "ReturnType": "global::System.Collections.Generic.List<global::System.Int64>",
-      "ReturnTypeFullName": "System.Collections.Generic.List"
+      "ReturnTypeFullName": "System.Collections.Generic.List`1[[System.Int64]]"
     },
     {
       "Name": "GetLastEntityId",

@@ -33,20 +33,22 @@
   "IsolatedNamespace": "Starkov.BulkProcessing.Isolated",
   "IsVisible": false,
   "OrderedSpecialFolders": [],
+  "OverrideSuffix": "Starkov",
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "ResourceInterfaceNamespace": "Starkov.BulkProcessing",
+  "ResourcesKeys": [],
   "ServerAssemblyName": "Starkov.BulkProcessing.Server",
   "ServerNamespace": "Starkov.BulkProcessing.Server",
   "SharedAssemblyName": "Starkov.BulkProcessing.Shared",
   "SharedNamespace": "Starkov.BulkProcessing.Shared",
   "SpecialFolders": [],
-  "Version": "1.26.2.0",
+  "Version": "1.26.3.0",
   "Widgets": [],
   "Versions": [
     {
       "Type": "SolutionMetadata",
-      "Number": 12
+      "Number": 13
     },
     {
       "Type": "ModuleMetadata",

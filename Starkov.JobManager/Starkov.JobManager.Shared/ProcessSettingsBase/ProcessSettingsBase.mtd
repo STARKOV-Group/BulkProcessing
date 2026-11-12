@@ -279,9 +279,9 @@
       "Name": "Status",
       "IsAncestorMetadata": true,
       "Overridden": [
+        "CanBeSearch",
         "IsShowedInList",
         "IsVisibility",
-        "CanBeSearch",
         "Values"
       ]
     },
@@ -435,12 +435,12 @@
         {
           "Name": "entitiesIds",
           "ParameterType": "global::System.Collections.Generic.List<global::System.Int64>",
-          "ParameterTypeFullName": "System.Collections.Generic.List"
+          "ParameterTypeFullName": "System.Collections.Generic.List`1[[System.Int64]]"
         }
       ],
       "Placement": "Shared",
       "ReturnType": "global::System.Collections.Generic.List<global::Sungero.Domain.Shared.IEntity>",
-      "ReturnTypeFullName": "System.Collections.Generic.List"
+      "ReturnTypeFullName": "System.Collections.Generic.List`1[[Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared]]"
     },
     {
       "Name": "GetFlowCount",
